@@ -12,7 +12,7 @@ export const useAuthStore = defineStore("authStore", {
         users.push({
           user: username,
           password: pass,
-          todos: ["task1", "task2"],
+          todos: [],
         });
 
         localStorage.setItem("users", JSON.stringify(users));
